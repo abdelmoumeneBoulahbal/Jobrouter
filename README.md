@@ -19,7 +19,3 @@ During the development of this project, I gained valuable experience in :
     <li>Styling components to create a responsive and user-friendly interface.</li>
 </ul>     
 
-
-## Deployment
-
- This project is deployed using Netlify, that allows for automatic updates whenever changes are made to the Github Repo.

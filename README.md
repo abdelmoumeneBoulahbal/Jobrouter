@@ -15,7 +15,7 @@ This Project is built using React and React-Router to showcase various jobs with
 During the development of this project, I gained valuable experience in : 
 <ul>
     <li>Implementation of React Router for navigation in a single page application .</li>
-    <li>Handling asynchronous data fetching to populate the job listings..</li>
+    <li>Handling asynchronous data fetching to populate the job listings.</li>
     <li>Styling components to create a responsive and user-friendly interface.</li>
 </ul>     
 

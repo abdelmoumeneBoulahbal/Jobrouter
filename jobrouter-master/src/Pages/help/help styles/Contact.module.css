@@ -1,0 +1,58 @@
+.contact_layout{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 30px;
+    width: 20%;
+
+}
+.contactUs_title{
+    width: 80%;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 20px ;
+  padding: 2px;
+}
+
+form label input{
+    border: 2px solid rgb(71, 98, 162);
+    border-radius: 5px;
+    padding: 10px;
+
+    width: 90%;
+
+    margin-top: 10px;
+}
+
+form label textarea{
+    padding: 10px;
+    border: 2px solid rgb(71, 98, 162);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.submit_button{
+    font-size: 1rem;
+
+    margin-top: 10px;
+
+    border: none;
+    background: orangered;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit_button:active{
+    
+    box-shadow: 0px 0px 10px orangered;
+}
+
+.submit_button:hover{
+    background: rgba(255, 68, 0, 0.761);
+    color: rgba(255, 255, 255, 0.744);
+}

@@ -1,0 +1,17 @@
+.career_location{
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.career_title{
+    font-size: 1.2rem;
+}
+
+.career_title{
+    transition: color 0.6s ease;
+}
+
+a:hover .career_title{
+    color: rgb(245, 83, 34);
+}

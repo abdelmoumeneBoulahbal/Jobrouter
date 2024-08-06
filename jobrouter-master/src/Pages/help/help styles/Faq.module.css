@@ -1,0 +1,12 @@
+.faq_par, .faq_question{
+    background-color: rgb(53, 53, 95);
+}
+.faq_question{
+    margin-bottom: 12px;
+}
+.faq_par{
+    border-radius: 16px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    padding: 25px;
+}

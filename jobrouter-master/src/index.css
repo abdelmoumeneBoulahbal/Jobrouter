@@ -1,0 +1,206 @@
+body{
+  background: rgb(10, 31, 61);
+}
+*{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+/******************/
+input, textarea{
+  font-weight: bold;
+  color: black;
+}
+/*******************/
+
+h2{
+  width: 30%;
+  border-bottom: 3px solid white;
+  margin: 0 auto;
+}
+
+ h2 ,p{
+  
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/* nav */
+header nav{
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  padding: 30px;
+}
+
+header nav h1 {
+  font-size: 2rem;
+  margin-right: auto;
+  border-bottom: 2px solid orangered;
+}
+
+header nav a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+header nav a.active{
+  background: orangered;
+}
+/**************/
+
+
+
+
+
+/* careers*/
+.careers > a{
+
+  display: block;
+  background-color: rgb(53, 53, 95);
+  transition: all 0.8s ease;
+  
+  padding: 10px;
+  margin: 25px;
+
+  border-radius: 10px;
+  
+  text-decoration: none;
+}
+
+.careers > a:hover {
+
+  background-color: rgba(53, 53, 89, 0.589);
+  
+}
+/*************/
+
+
+
+
+
+/* career Detail */
+.career-detail {
+  background-color: rgb(53, 53, 95);
+  
+  padding: 30px;
+  margin: 15px;
+
+  border-radius: 20px;
+
+  border: 1px solid rgb(53, 53, 95);;
+
+  transition: all 0.8s ease;
+}
+
+.career-detail-location, .career-detail-salary{
+  transition: all 0.8s ease;
+}
+.career-detail:hover{
+  box-shadow: 0px 0px 20px rgba(99, 99, 169, 0.982);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
+
+.career-detail:hover .career-detail-location{
+  color: rgb(40, 180, 226);
+ 
+}
+
+.career-detail:hover .career-detail-salary{
+  color: rgba(61, 210, 83, 0.829);
+  font-weight: bold;
+}
+
+
+
+.career-detail > .description{
+  margin: 0px;
+  padding: 0px;
+  font-weight: lighter;
+ 
+
+}
+
+
+.career-detail-salary, .career-detail-location{
+
+  font-weight: lighter;
+
+}
+
+
+.career-detail-title{
+
+  font-size: 1.3rem;
+
+  margin-bottom: 15px;
+  margin-left: -8px;
+
+  transition: all 0.8s ease;
+}
+
+.career-detail:hover .career-detail-title{
+  text-shadow: 0px 0px 5px white;
+             
+}
+
+
+.description-title{
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+/***********************/
+
+/**/
+.career-error-message{
+  margin-top: 35px;
+  font-size: 1.4rem;
+}
+
+.career-error-title{
+  font-size: 2.2rem;
+}
+
+.goHome{
+
+  margin: 30px;
+  transition: all 0.5s ease;
+}
+.goHome:hover{
+  color: orangered;
+}
+
+/***/
+.breadcrumbs{
+  font-weight: lighter;
+  font-size: 1.3rem;
+  max-width: 1200px;
+  margin: 20px;
+}
+
+.breadcrumbs > *{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.breadcrumbs .crumb:after{
+  content: '>';
+  margin-left: 10px;
+}
+.breadcrumbs .crumb:last-child:after{
+  display: none;
+}
+.breadcrumbs .crumb a{
+  text-decoration: none;
+  color: white;
+}
